@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 3: December 5, Thursday
+
+**Today's Progress**: Even after just 3 days of focusing in on one language(JavaScript) I can find things coming more easily. While I appreciated the versatility in the materials we covered in my bootcamp, my brain definitely works best with zeroing in on one thing and doing that well.
+
+**Thoughts** I love being able to review other people's solutions after completing a challegne. it is so interesting to see the dozens if not hundreds of ways to solve a single problem!
+
+**Link(s) to work**
+1. [JavaScript Training #15 (JavaScript)](https://www.codewars.com/kata/training-js-number-15-methods-of-number-object-tofixed-toexponential-and-toprecision/javascript)
+2. [A wolf in Sheeps Clothing (JavaScript)](https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/javascript)
+
 ### Day 2: December 4, Wednesday
 
 **Today's Progress**: Today went a hell of a lot slower than yesterday. Only made it through one coding challenge, which was a little frustrating when compared to yesterday's 4.
@@ -8,7 +18,6 @@
 
 **Link(s) to work**
 1. [Sum of difference in array (JavaScript)](https://www.codewars.com/kata/sum-of-differences-in-array/javascript)
-
 
 ### Day 1: December 3, Tuesday
 

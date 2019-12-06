@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 4: December 6, Friday
+
+**Today's Progress**: The last unfinished coding challenge remains unfinished... It was one I had attempted during an interview mockup. I spent another 30 minutes on it today and hit a wall again. I am really gonna celebrate the day that one is finished and marked off my list!
+
+**Thoughts** Today was the first day so far that I didn't want to/didn't feel I had time to code for an hour, but I in my time anyway! Its not only a challenge, its a choice!
+
+**Link(s) to work**
+1. [Get hte Middle Character (JavaScript)](https://www.codewars.com/kata/get-the-middle-character/javascript)
+2. [Shortest Word (JavaScript)](https://www.codewars.com/kata/shortest-word/javascript)
+
 ### Day 3: December 5, Thursday
 
 **Today's Progress**: Even after just 3 days of focusing in on one language(JavaScript) I can find things coming more easily. While I appreciated the versatility in the materials we covered in my bootcamp, my brain definitely works best with zeroing in on one thing and doing that well.

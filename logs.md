@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 5: December 7, Saturday
+
+**Today's Progress**: I made it through my first Saturday of 100 days of code!
+
+**Thoughts** I'd like to spend some time learning more RegEx this week!
+
+**Link(s) to work**
+1. [Vowel Count (JavaScript)](https://www.codewars.com/kata/vowel-count/javascript)
+
 ### Day 4: December 6, Friday
 
 **Today's Progress**: The last unfinished coding challenge remains unfinished... It was one I had attempted during an interview mockup. I spent another 30 minutes on it today and hit a wall again. I am really gonna celebrate the day that one is finished and marked off my list!

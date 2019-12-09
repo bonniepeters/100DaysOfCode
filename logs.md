@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 6: December 8, Sunday
+
+**Today's Progress**: I am now ranked at over 75 honor on codewars!
+
+**Thoughts** Need to spend some more time exploring the spread syntax in JavaScript
+
+**Link(s) to work**
+1. [You Are a Square (JavaScript)](https://www.codewars.com/kata/54c27a33fb7da0db0100040e)
+2. [Highest and Lowest (JavaScript)](https://www.codewars.com/kata/554b4ac871d6813a03000035)
+
 ### Day 5: December 7, Saturday
 
 **Today's Progress**: I made it through my first Saturday of 100 days of code!

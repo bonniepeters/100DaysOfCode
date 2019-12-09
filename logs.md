@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 7: December 9, Monday
+
+**Today's Progress**: I made it a whole week coding eveyday!
+
+**Thoughts** Though I like working through code challenges, I would like to also be working on a project, so I will probably return to my latest projet and then try to find another idea.
+
+**Link(s) to work**
+1. [Updated Portfolio Siter to Include (React.js)](https://github.com/bonniepeters/bonniepeters)
+2. [Mumbling (JavaScript)](https://www.codewars.com/kata/mumbling/javascript)
+
 ### Day 6: December 8, Sunday
 
 **Today's Progress**: I am now ranked at over 75 honor on codewars!

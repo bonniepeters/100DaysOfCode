@@ -26,7 +26,7 @@ minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
 const hours = now.getHours();
 const hoursDegrees = ((hours / 60) * 360) + 90;
 hourHand.style.transform = `rotate(${hoursDegrees}deg)`
-}
+};
 setInterval(setDate, 1000);
 ```
   </p>

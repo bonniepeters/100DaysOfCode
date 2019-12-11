@@ -1,9 +1,5 @@
 # 100 Days Of Code - Log
 
-``here you go - ` this was a backtick``
-
-Here's a backtick: \`; then, here's another one: \`
-
 ### Day 9: December 11, Wednesday
 
 **Today's Progress**: I completed my first coding challenge as a part of my [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). My nerves around these types of challenges are definitely improving with practice.
@@ -14,9 +10,6 @@ Here's a backtick: \`; then, here's another one: \`
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
 <details>
   <summary>Code</summary>
-  <p>
-`` `testing` ``
-  </p>
 </details>
 
 2. [Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)<details><summary>Code</summary>

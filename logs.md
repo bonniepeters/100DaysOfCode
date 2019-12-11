@@ -8,7 +8,9 @@
 
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
-<details><summary>Code</summary>
+<details>
+  <summary>Code</summary>
+  <p>
 ```javascript
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
@@ -27,6 +29,7 @@ hourHand.style.transform = `rotate(${hoursDegrees}deg)`
 }
 setInterval(setDate, 1000);
 ```
+  </p>
 </details>
 
 2. [Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)<details><summary>Code</summary>

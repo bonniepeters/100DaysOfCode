@@ -9,6 +9,7 @@
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
 <details><summary>Code</summary>
+```
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
 const hourHand = document.querySelector('.hour-hand');
@@ -22,11 +23,11 @@ function setDate() {
   
   const minutes = now.getMinutes();
   const minutesDegrees = ((minutes / 60) * 360) + 90;
-  minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
+  minuteHand.style.transform = \`rotate(${minutesDegrees}deg)\`
 
   const hours = now.getHours();
   const hoursDegrees = ((hours / 60) * 360) + 90;
-  hourHand.style.transform = `rotate(${hoursDegrees}deg)`
+  hourHand.style.transform = \`rotate(${hoursDegrees}deg)\`
 
 }
 setInterval(setDate, 1000);

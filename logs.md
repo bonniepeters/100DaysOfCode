@@ -8,9 +8,7 @@
 
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
-<details>
-  <summary>Code</summary>
-</details>
+<details><summary>Code</summary>
 ```
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
@@ -21,19 +19,21 @@ function setDate() {
 
   const seconds = now.getSeconds();
   const secondsDegrees = ((seconds / 60) * 360) + 90;
-  secondHand.style.transform = \`rotate(${secondsDegrees}deg)\`
+  secondHand.style.transform = 'rotate(${secondsDegrees}deg)'
   
   const minutes = now.getMinutes();
   const minutesDegrees = ((minutes / 60) * 360) + 90;
-  minuteHand.style.transform = \`rotate(${minutesDegrees}deg)\`
+  minuteHand.style.transform = 'rotate(${minutesDegrees}deg)'
 
   const hours = now.getHours();
   const hoursDegrees = ((hours / 60) * 360) + 90;
-  hourHand.style.transform = \`rotate(${hoursDegrees}deg)\`
+  hourHand.style.transform = 'rotate(${hoursDegrees}deg)'
 
 }
 setInterval(setDate, 1000);
 ```
+</details>
+
 2. [Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)<details><summary>Code</summary>
 ```javascript
 function validAnagram(str1, str2) {

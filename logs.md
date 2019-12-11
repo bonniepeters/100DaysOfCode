@@ -9,33 +9,27 @@
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
 <details><summary>Code</summary>
-```js
+```javascript 
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
 const hourHand = document.querySelector('.hour-hand');
-
 function setDate() {
-  const now = new Date();
-
-  const seconds = now.getSeconds();
-  const secondsDegrees = ((seconds / 60) * 360) + 90;
-  secondHand.style.transform = `rotate(${secondsDegrees}deg)`
-  
-  const minutes = now.getMinutes();
-  const minutesDegrees = ((minutes / 60) * 360) + 90;
-  minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
-
-  const hours = now.getHours();
-  const hoursDegrees = ((hours / 60) * 360) + 90;
-  hourHand.style.transform = `rotate(${hoursDegrees}deg)`
-
+const now = new Date();
+const seconds = now.getSeconds();
+const secondsDegrees = ((seconds / 60) * 360) + 90;
+secondHand.style.transform = `rotate(${secondsDegrees}deg)`
+const minutes = now.getMinutes();
+const minutesDegrees = ((minutes / 60) * 360) + 90;
+minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
+const hours = now.getHours();
+const hoursDegrees = ((hours / 60) * 360) + 90;
+hourHand.style.transform = `rotate(${hoursDegrees}deg)`
 }
 setInterval(setDate, 1000);
-```s
+```
 </details>
 
-2. <details><summary>[Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)</summary>
-<p>
+2. [Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)<details><summary>Code</summary>
 ```javascript
 function validAnagram(str1, str2) {
 if (str1.length !== str2.length) {
@@ -47,8 +41,7 @@ return (sorted1 !== sorted2 ? false : true);
 }
 }
 ```
-</p>
- </details>
+</details>
 
 ### Day 8: December 10, Tuesday
 

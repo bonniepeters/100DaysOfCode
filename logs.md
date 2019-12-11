@@ -15,9 +15,8 @@
   </p>
 </details>
 
-2. [Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)<details>
-  <summary>Code</summary>
-  <p>```javascript
+2. [Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)<details><summary>Code</summary>
+```javascript
 function validAnagram(str1, str2) {
 if (str1.length !== str2.length) {
 return false
@@ -28,7 +27,6 @@ return (sorted1 !== sorted2 ? false : true);
 }
 }
 ```
-  </p>
 </details>
 
 ### Day 8: December 10, Tuesday

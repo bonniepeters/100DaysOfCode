@@ -63,6 +63,33 @@ function validAnagram(str1, str2) {
 **Link(s) to work**
 1. [01 - JavaScript Drum Kit](https://github.com/bonniepeters/JavaScript30)
 
+<details><summary>Code</summary>
+<p>
+
+```javascript
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
+
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    if (!audio) return;
+
+    key.classList.add('playing');
+    audio.currentTime = 0;
+    audio.play();
+  }
+
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
+```
+
+</p>
+</details>
+
 ### Day 7: December 9, Monday
 
 **Today's Progress**: I made it a whole week coding eveyday!
@@ -70,8 +97,39 @@ function validAnagram(str1, str2) {
 **Thoughts**: Though I like working through code challenges, I would like to also be working on a project, so I will probably return to my latest projet and then try to find another idea.
 
 **Link(s) to work**
-1. [Updated Portfolio Siter to Include (React.js)](https://github.com/bonniepeters/bonniepeters)
+1. [Updated Portfolio Site to Include Resume (React.js)](https://github.com/bonniepeters/bonniepeters)
 2. [Mumbling (JavaScript)](https://www.codewars.com/kata/mumbling/javascript)
+
+<details><summary>Code</summary>
+<p> 1
+
+```
+<a className="nav-link" href={process.env.PUBLIC_URL + "/Resume.pdf"} target="_blank">Resume</a>
+```
+
+</p>
+<p> 2
+
+```javascript
+function accum(s) {
+  s = s.split("");
+  repeatArr = [];
+  for (let i = 0; i < s.length; i++) {
+    repeatArr.push(s[i].repeat(i + 1).toLowerCase() + "-");
+  }
+  let capitalizeArr = [];
+  for (let x = 0; x < repeatArr.length; x++) {
+    capitalizeArr.push(
+      repeatArr[x].charAt(0).toUpperCase() + repeatArr[x].slice(1)
+    );
+  }
+  newStr = capitalizeArr.join("");
+  return newStr.substring(0, newStr.length - 1);
+}
+```
+
+</p>
+</details>
 
 ### Day 6: December 8, Sunday
 
@@ -83,6 +141,28 @@ function validAnagram(str1, str2) {
 1. [You Are a Square (JavaScript)](https://www.codewars.com/kata/54c27a33fb7da0db0100040e)
 2. [Highest and Lowest (JavaScript)](https://www.codewars.com/kata/554b4ac871d6813a03000035)
 
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+var isSquare = function(n){
+  return Math.sqrt(n) % 1 === 0;
+}
+```
+
+</p>
+<p> 2
+
+```javascript
+function highAndLow(numbers){
+    let arr = numbers.split(" ")
+    return `${(Math.max(...arr))} ${(Math.min(...arr))}`
+}
+```
+
+</p>
+</details>
+
 ### Day 5: December 7, Saturday
 
 **Today's Progress**: I made it through my first Saturday of 100 days of code!
@@ -92,6 +172,18 @@ function validAnagram(str1, str2) {
 **Link(s) to work**
 1. [Vowel Count (JavaScript)](https://www.codewars.com/kata/vowel-count/javascript)
 
+<details><summary>Code</summary>
+<p>
+
+```javascript
+function getCount(str) {
+    return (str.match(/[aeiou]/gi) || []).length;
+}
+```
+
+</p>
+</details>
+
 ### Day 4: December 6, Friday
 
 **Today's Progress**: The last unfinished coding challenge remains unfinished... It was one I had attempted during an interview mockup. I spent another 30 minutes on it today and hit a wall again. I am really gonna celebrate the day that one is finished and marked off my list!
@@ -99,8 +191,41 @@ function validAnagram(str1, str2) {
 **Thoughts** Today was the first day so far that I didn't want to/didn't feel I had time to code for an hour, but I in my time anyway! Its not only a challenge, its a choice!
 
 **Link(s) to work**
-1. [Get hte Middle Character (JavaScript)](https://www.codewars.com/kata/get-the-middle-character/javascript)
+1. [Get the Middle Character (JavaScript)](https://www.codewars.com/kata/get-the-middle-character/javascript)
 2. [Shortest Word (JavaScript)](https://www.codewars.com/kata/shortest-word/javascript)
+
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function getMiddle(s)
+{
+    let middlePosition = Math.floor(s.length / 2)
+    if (s.length % 2 == 0) {
+        return `${s[middlePosition - 1]}${s[middlePosition]}`
+    } else {
+        return `${s[middlePosition]}`
+    }
+}
+```
+
+</p>
+<p> 2
+
+```javascript
+function findShort(s) {
+    let wordArr = s.split(" ")
+    let shortestWordCount = wordArr[0].length
+    for (let i = 1; i < wordArr.length; i++){
+        if (wordArr[i].length < shortestWordCount) {
+            shortestWordCount = wordArr[i].length
+        }
+    } return shortestWordCount
+}
+```
+
+</p>
+</details>
 
 ### Day 3: December 5, Thursday
 
@@ -112,6 +237,34 @@ function validAnagram(str1, str2) {
 1. [JavaScript Training #15 (JavaScript)](https://www.codewars.com/kata/training-js-number-15-methods-of-number-object-tofixed-toexponential-and-toprecision/javascript)
 2. [A wolf in Sheeps Clothing (JavaScript)](https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/javascript)
 
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function howManySmaller(arr,n){
+    arr = arr.map(num => parseFloat(num.toFixed(2)))
+    arr = arr.filter(num => num < n)
+    return arr.length;
+}
+```
+
+</p>
+<p> 2
+
+```javascript
+function warnTheSheep(queue) {
+    queue = queue.reverse()
+    if (queue[0] == "wolf") {
+        return `Pls go away and stop eating my sheep`
+    } else {
+        return `Oi! Sheep number ${queue.indexOf("wolf")}! You are about to be eaten by a wolf!`
+    }
+}
+```
+
+</p>
+</details>
+
 ### Day 2: December 4, Wednesday
 
 **Today's Progress**: Today went a hell of a lot slower than yesterday. Only made it through one coding challenge, which was a little frustrating when compared to yesterday's 4.
@@ -120,6 +273,33 @@ function validAnagram(str1, str2) {
 
 **Link(s) to work**
 1. [Sum of difference in array (JavaScript)](https://www.codewars.com/kata/sum-of-differences-in-array/javascript)
+
+<details><summary>Code</summary>
+<p>
+
+```javascript
+function sumOfDifferences(arr) {
+    if (arr.length <= 1) {
+      return 0;
+    } else {
+      arr = arr.sort(function(a, b) {
+        return b - a;
+      });
+      let difference;
+      let differenceArr = [];
+        for (let i = 0; i < arr.length-1; i++) {
+            difference = arr[i] - arr[i + 1];
+            differenceArr.push(difference);
+        } let sum = 0;
+        for (let j = 0; j <= differenceArr.length-1; j++) {
+            sum += differenceArr[j];
+        } return sum
+    }
+  }
+```
+
+</p>
+</details>
 
 ### Day 1: December 3, Tuesday
 
@@ -132,3 +312,68 @@ function validAnagram(str1, str2) {
 2. [Find the smallest integer in an array (JavaScript)](https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/javascript)
 3. [Is the string uppercase? (JavaScript)](https://www.codewars.com/kata/is-the-string-uppercase/javascript)
 4. [Who likes this? (JavaScript)](https://www.codewars.com/kata/who-likes-it/javascript)
+
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function oddOrEven(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i]
+    }
+    if (sum % 2 == 0) {
+        return "even"
+    } else {
+        return "odd"
+    }
+}
+```
+
+</p>
+<p> 2
+
+```javascript
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+        let smallestInt = args[0]
+        for (let i = 0; i < args.length; i++) {
+            if (args[i] < smallestInt) {
+                smallestInt = args[i]
+            }
+        }
+        return smallestInt
+    }
+}
+```
+
+</p>
+<p> 3
+
+```javascript
+String.prototype.isUpperCase = function() {
+  return this.valueOf().toUpperCase() === this.valueOf();
+}
+```
+
+</p>
+<p> 4
+
+```javascript
+function likes(names) {
+    if (names.length == 0) {
+        return `no one likes this`
+    } else if (names.length == 1) {
+        return `${names[0]} likes this`
+    } else if (names.length == 2) {
+        return `${names[0]} and ${names[1]} like this`
+    } else if (names.length == 3) {
+        return `${names[0]}, ${names[1]} and ${names[2]} like this`
+    } else {
+        return `${names[0]}, ${names[1]} and ${names.length -2} others like this`
+    }
+}
+```
+
+</p>
+</details>

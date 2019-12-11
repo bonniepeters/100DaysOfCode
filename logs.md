@@ -11,9 +11,7 @@
 <details>
   <summary>Code</summary>
   <p>
-```javascript
 `` `testing` ``
-```
   </p>
 </details>
 

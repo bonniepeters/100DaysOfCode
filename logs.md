@@ -1,10 +1,56 @@
 # 100 Days Of Code - Log
 
+### Day 9: December 11, Wednesday
+
+**Today's Progress**: I completed my first coding challenge as a part of my [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). My nerves around these types of challenges are definitely improving with practice.
+
+**Thoughts**: There is a LOT to know when it comes to JavaScript... That both excites and terrifies me :P
+
+**Link(s) to work**
+1. <details><summary>[02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)</summary>
+```javascript
+    const secondHand = document.querySelector('.second-hand');
+    const minuteHand = document.querySelector('.minute-hand');
+    const hourHand = document.querySelector('.hour-hand');
+
+    function setDate() {
+      const now = new Date();
+
+      const seconds = now.getSeconds();
+      const secondsDegrees = ((seconds / 60) * 360) + 90;
+      secondHand.style.transform = `rotate(${secondsDegrees}deg)`
+      
+      const minutes = now.getMinutes();
+      const minutesDegrees = ((minutes / 60) * 360) + 90;
+      minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
+
+      const hours = now.getHours();
+      const hoursDegrees = ((hours / 60) * 360) + 90;
+      hourHand.style.transform = `rotate(${hoursDegrees}deg)`
+
+    }
+    setInterval(setDate, 1000);
+    ```
+</details>
+2. <details><summary>[Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)</summary>
+```javascript
+  function validAnagram(str1, str2) {
+  if (str1.length !== str2.length) {
+    return false
+  } else {
+    let sorted1 = str1.split("").sort().join("");
+    let sorted2 = str2.split("").sort().join("");
+    return (sorted1 !== sorted2 ? false : true);
+  }
+}
+  ```
+ </details>
+
 ### Day 8: December 10, Tuesday
 
 **Today's Progress**: I started the JavaScript 30 course today. There were quite a few references I didn't fully get, but that was good becasue it forced me to learn above and beyond what was covered in the tutorial!
 
-**Thoughts** I'm excited to dive deeper into vanilla JavaScript and accomplishing things the long and technical way :)
+**Thoughts**: I'm excited to dive deeper into vanilla JavaScript and accomplishing things the long and technical way :)
 
 **Link(s) to work**
 1. [01 - JavaScript Drum Kit](https://github.com/bonniepeters/JavaScript30)
@@ -13,7 +59,7 @@
 
 **Today's Progress**: I made it a whole week coding eveyday!
 
-**Thoughts** Though I like working through code challenges, I would like to also be working on a project, so I will probably return to my latest projet and then try to find another idea.
+**Thoughts**: Though I like working through code challenges, I would like to also be working on a project, so I will probably return to my latest projet and then try to find another idea.
 
 **Link(s) to work**
 1. [Updated Portfolio Siter to Include (React.js)](https://github.com/bonniepeters/bonniepeters)
@@ -23,7 +69,7 @@
 
 **Today's Progress**: I am now ranked at over 75 honor on codewars!
 
-**Thoughts** Need to spend some more time exploring the spread syntax in JavaScript
+**Thoughts**: Need to spend some more time exploring the spread syntax in JavaScript
 
 **Link(s) to work**
 1. [You Are a Square (JavaScript)](https://www.codewars.com/kata/54c27a33fb7da0db0100040e)

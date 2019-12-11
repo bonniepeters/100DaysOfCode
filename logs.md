@@ -7,9 +7,9 @@
 **Thoughts**: There is a LOT to know when it comes to JavaScript... That both excites and terrifies me :P
 
 **Link(s) to work**
-1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)<details><summary></summary>
-<p>
-```javascript
+1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
+<details><summary>Code</summary>
+```js
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
 const hourHand = document.querySelector('.hour-hand');
@@ -30,10 +30,10 @@ function setDate() {
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`
 
 }
-    setInterval(setDate, 1000);
-```
-</p>
+setInterval(setDate, 1000);
+```s
 </details>
+
 2. <details><summary>[Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)</summary>
 <p>
 ```javascript

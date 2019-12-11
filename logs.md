@@ -7,8 +7,8 @@
 
 #### yes, even hidden code blocks!
 
-```python
-print("hello world!")
+```javascript
+print(`hello world!`)
 ```
 
 </p>

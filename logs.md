@@ -8,8 +8,7 @@
 
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
-<details><summary>Code</summary>
-<p>
+
 ```
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
@@ -33,8 +32,6 @@ function setDate() {
 }
 setInterval(setDate, 1000);
 ```
-</p>
-</details>
 
 
 

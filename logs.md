@@ -8,6 +8,7 @@
 
 **Link(s) to work**
 1. <details><summary>[02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)</summary>
+<p>
 ```javascript
     const secondHand = document.querySelector('.second-hand');
     const minuteHand = document.querySelector('.minute-hand');
@@ -31,19 +32,22 @@
     }
     setInterval(setDate, 1000);
     ```
+</p>
 </details>
 2. <details><summary>[Valid Anagram](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4410604#overview)</summary>
+<p>
 ```javascript
-  function validAnagram(str1, str2) {
-  if (str1.length !== str2.length) {
-    return false
-  } else {
-    let sorted1 = str1.split("").sort().join("");
-    let sorted2 = str2.split("").sort().join("");
-    return (sorted1 !== sorted2 ? false : true);
-  }
+function validAnagram(str1, str2) {
+if (str1.length !== str2.length) {
+return false
+} else {
+let sorted1 = str1.split("").sort().join("");
+let sorted2 = str2.split("").sort().join("");
+return (sorted1 !== sorted2 ? false : true);
 }
-  ```
+}
+```
+</p>
  </details>
 
 ### Day 8: December 10, Tuesday

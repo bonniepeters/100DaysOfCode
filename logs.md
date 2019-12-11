@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
 ### Day 9: December 11, Wednesday
 
 **Today's Progress**: I completed my first coding challenge as a part of my [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). My nerves around these types of challenges are definitely improving with practice.
@@ -8,7 +22,6 @@
 
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
-```
 <details><summary>Code</summary>
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
@@ -31,7 +44,6 @@ function setDate() {
 }
 setInterval(setDate, 1000);
 </details>
-```
 
 ### Day 8: December 10, Tuesday
 

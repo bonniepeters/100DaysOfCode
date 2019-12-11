@@ -9,7 +9,7 @@
 **Link(s) to work**
 1. [02 - JS and CSS Clock](https://github.com/bonniepeters/JavaScript30)
 
-```
+```javascript
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.minute-hand');
 const hourHand = document.querySelector('.hour-hand');

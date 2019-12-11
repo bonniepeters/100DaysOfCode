@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 8: December 10, Tuesday
+
+**Today's Progress**: I started the JavaScript 30 course today. There were quite a few references I didn't fully get, but that was good becasue it forced me to learn above and beyond what was covered in the tutorial!
+
+**Thoughts** I'm excited to dive deeper into vanilla JavaScript and accomplishing things the long and technical way :)
+
+**Link(s) to work**
+1. [01 - JavaScript Drum Kit](https://github.com/bonniepeters/JavaScript30)
+
 ### Day 7: December 9, Monday
 
 **Today's Progress**: I made it a whole week coding eveyday!

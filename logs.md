@@ -1,5 +1,60 @@
 # 100 Days Of Code - Log
 
+### Day 10: December 12, Thursday
+
+**Today's Progress**: I am in the double digits! 10 days straight!
+
+**Thoughts**: Today I had a conversation with a friend about finding work where we can support what we are most passionate about. So not to do the thing we love, but to be a strong proponent of the mission of that thing. It had me thinking about what that might be for me. I would really love to be ina position one day that supports young people taking an alternative approach to education and acheiving success in a chosen career. 
+
+**Link(s) to work**
+1. [03 - CSS Variables (JavaScript + CSS)](https://github.com/bonniepeters/JavaScript30)
+2. [Disemvowel Trolls (JavaScript)](https://www.codewars.com/kata/disemvowel-trolls/javascript)
+2. [Exes and Ohs (JavaScript)](https://www.codewars.com/kata/55908aad6620c066bc00002a/solutions/javascript)
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+const inputs = document.querySelectorAll(".controls input");
+function handleUpdate() {
+  const suffix = this.dataset.sizing || "";
+  document.documentElement.style.setProperty(`--${this.name}`,
+ this.value + suffix)
+}
+inputs.forEach(input => input.addEventListener('change', 
+handleUpdate));
+inputs.forEach(input => input.addEventListener('mousemove', 
+handleUpdate));
+```
+
+</p>
+<p> 2
+
+```javascript
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
+```
+
+</p>
+<p> 3
+
+```javascript
+function XO(str) {
+  let xCount = 0
+  let oCount = 0
+  for (let char of str) {
+    if (char.toLowerCase() == 'x') {
+      xCount += 1;
+    }
+    else if (char.toLowerCase() == 'o') {
+      oCount += 1;   
+    }
+  } return (xCount == oCount)
+}
+```
+
+</p>
+
 ### Day 9: December 11, Wednesday
 
 **Today's Progress**: I completed my first coding challenge as a part of my [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). My nerves around these types of challenges are definitely improving with practice.

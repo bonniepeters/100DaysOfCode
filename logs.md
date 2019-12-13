@@ -54,6 +54,7 @@ function XO(str) {
 ```
 
 </p>
+</details>
 
 ### Day 9: December 11, Wednesday
 

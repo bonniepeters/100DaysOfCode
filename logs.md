@@ -2,9 +2,9 @@
 
 ### Day 11: December 15, Sunday
 
-**Today's Progress**: I am in the double digits! 10 days straight!
+**Today's Progress**: I've leveled up to 6 kyu on codewars :)
 
-**Thoughts**: Today I had a conversation with a friend about finding work where we can support what we are most passionate about. So not to do the thing we love, but to be a strong proponent of the mission of that thing. It had me thinking about what that might be for me. I would really love to be ina position one day that supports young people taking an alternative approach to education and acheiving success in a chosen career. 
+**Thoughts**: As I thought might happen at some point, there was a two day strek of NOT coding this weekend. I am actually proud of myself for putting it aside for a couple days to just spend time with family though. its back to it this week! 
 
 **Link(s) to work**
 1. [Multiples of 3 or 5 (JavaScript)](https://www.codewars.com/kata/multiples-of-3-or-5/javascript)

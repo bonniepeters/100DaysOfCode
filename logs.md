@@ -1,5 +1,51 @@
 # 100 Days Of Code - Log
 
+### Day 11: December 15, Sunday
+
+**Today's Progress**: I am in the double digits! 10 days straight!
+
+**Thoughts**: Today I had a conversation with a friend about finding work where we can support what we are most passionate about. So not to do the thing we love, but to be a strong proponent of the mission of that thing. It had me thinking about what that might be for me. I would really love to be ina position one day that supports young people taking an alternative approach to education and acheiving success in a chosen career. 
+
+**Link(s) to work**
+1. [Multiples of 3 or 5 (JavaScript)](https://www.codewars.com/kata/multiples-of-3-or-5/javascript)
+2. [Find the odd int (JavaScript)](https://www.codewars.com/kata/find-the-odd-int/javascript)
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function solution(number) {
+  let total = 0;
+  for (let i = number-1; i >= 0; i--){
+    if (i % 3 == 0 || i % 5 == 0) {
+      total += i
+    }
+  } return total
+}
+```
+
+</p>
+<p> 2
+
+```javascript
+function findOdd(A) {
+  let counter = {}
+  for (let integer of A) {
+    if (counter[integer]) {
+      counter[integer] += 1;
+    } else {
+      counter[integer] = 1;
+    }
+  }
+  for (let num in counter) {
+    if (counter[num] % 2 === 1)
+      return parseInt(num)
+  }
+}
+```
+
+</p>
+</details>
+
 ### Day 10: December 12, Thursday
 
 **Today's Progress**: I am in the double digits! 10 days straight!
@@ -9,7 +55,7 @@
 **Link(s) to work**
 1. [03 - CSS Variables (JavaScript + CSS)](https://github.com/bonniepeters/JavaScript30)
 2. [Disemvowel Trolls (JavaScript)](https://www.codewars.com/kata/disemvowel-trolls/javascript)
-2. [Exes and Ohs (JavaScript)](https://www.codewars.com/kata/55908aad6620c066bc00002a/solutions/javascript)
+3. [Exes and Ohs (JavaScript)](https://www.codewars.com/kata/55908aad6620c066bc00002a/solutions/javascript)
 <details><summary>Code</summary>
 <p> 1
 

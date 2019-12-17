@@ -1,5 +1,92 @@
 # 100 Days Of Code - Log
 
+### Day 12: December 16, Monday
+
+**Today's Progress**: I feel that I'm actually able to answer more complex questions like the ones that might be asked in a technical interview.
+
+**Thoughts**: I've been falling quite behind when it comes to the social media aspect of this challenge. I definitely need to improve on that.
+
+**Link(s) to work**
+1. [Count Unique Values - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+2. [Value Frequency Comarison - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+3. [Duplicate Check - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function countUniqueValues(arr) {
+  if (arr.length == 0) return 0;
+  let left = 0;
+  for (let right = 1; right < arr.length; right++) {
+    if (arr[left] !== arr[right]) {
+      left++;
+      arr[left] = arr[right];
+    }
+  }
+  return left + 1;
+}
+```
+
+</p>
+<p> 2
+
+```javascript
+function sameFrequency(num1, num2) {
+  if (num1.toString().length !== num2.toString().length) {
+    return false;
+  }
+  else {
+    let sorted1 = num1.toString().split("").sort().join("");
+    let sorted2 = num2.toString().split("").sort().join("");
+    return (sorted1 !== sorted2 ? false : true);
+  }
+}
+
+function sameFrequency(num1, num2){
+  let strNum1 = num1.toString();
+  let strNum2 = num2.toString();
+  if(strNum1.length !== strNum2.length) return false;
+  
+  let countNum1 = {};
+  let countNum2 = {};
+  
+  for(let i = 0; i < strNum1.length; i++){
+    countNum1[strNum1[i]] = (countNum1[strNum1[i]] || 0) + 1
+  }
+  
+  for(let j = 0; j < strNum1.length; j++){
+    countNum2[strNum2[j]] = (countNum2[strNum2[j]] || 0) + 1
+  }
+  
+  for(let key in countNum1){
+    if(countNum1[key] !== countNum2[key]) return false;
+  }
+ 
+  return true;
+}
+```
+
+</p>
+<p> 3
+
+```javascript
+function areThereDuplicates() {
+  let counter = {}
+  for (let argument in arguments) {
+    counter[arguments[argument]] = (counter[arguments[argument]] || 0) + 1
+  }
+  for (let key in counter) {
+    if (counter[key] > 1) {
+      return true
+    }
+  }
+  return false;
+}
+```
+
+</p>
+</details>
+
 ### Day 11: December 15, Sunday
 
 **Today's Progress**: I've leveled up to 6 kyu on codewars :)

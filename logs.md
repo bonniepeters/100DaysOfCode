@@ -8,6 +8,7 @@
 
 **Link(s) to work**
 1. [Average Pair - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+2. [Is Subsequence - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
 <details><summary>Code</summary>
 <p> 1
 
@@ -27,6 +28,23 @@ function averagePair(arr, av) {
       left++;
     }
   } return false
+}
+```
+
+</p>
+<p> 2
+  
+```javascript
+function isSubsequence(str1, str2) {
+  let i = 0;
+  let j = 0;
+  while (j < str2.length) {
+    if (str2[j] == str1[i]) i++;
+    console.log(str2[j])
+    if (i == str1.length) return true;
+    j++;
+  }
+  return false;
 }
 ```
 

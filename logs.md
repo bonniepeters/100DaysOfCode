@@ -1,5 +1,38 @@
 # 100 Days Of Code - Log
 
+### Day 13: December 17, Tuesday
+
+**Today's Progress**:
+
+**Thoughts**:
+
+**Link(s) to work**
+1. [Average Pair - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function averagePair(arr, av) {
+  if (arr.length < 2) return false
+  let left = 0
+  let right = arr.length - 1
+  let temp = -Infinity
+  while (left < right) {
+    temp = (arr[left] + arr[right]) / 2
+    if (temp == av) {
+      return true
+    } else if (temp > av) {
+      right--;
+    } else {
+      left++;
+    }
+  } return false
+}
+```
+
+</p>
+</details>
+
 ### Day 12: December 16, Monday
 
 **Today's Progress**: I feel that I'm actually able to answer more complex questions like the ones that might be asked in a technical interview.

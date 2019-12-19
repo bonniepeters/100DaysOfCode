@@ -1,5 +1,35 @@
 # 100 Days Of Code - Log
 
+### Day 14: December 18, Wednesday
+
+**Today's Progress**: Today I finished the Applied Visual Desgin section of Free Code Camp's Responsive We Design Certification.
+
+**Thoughts**: The more I know, the more I know I don't know much :P
+
+**Link(s) to work**
+1. [Max Subarray - O(N) - (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+<details><summary>Code</summary>
+<p>
+
+```javascript
+function maxSubarraySum(arr, subLength){
+  if (subLength > arr.length) return null;
+  let maxSum = 0;
+  let tempSum = 0;
+  for (let i = 0; i < subLength; i++){
+    maxSum += arr[i];
+  }
+  tempSum = maxSum;
+  for (let j = subLength; j < arr.length; j++) {
+    tempSum = tempSum - arr[j - subLength] + arr[j];
+    maxSum = Math.max(maxSum, tempSum);
+  } return maxSum;
+}
+```
+
+</p>
+</details>
+
 ### Day 13: December 17, Tuesday
 
 **Today's Progress**:

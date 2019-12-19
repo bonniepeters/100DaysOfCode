@@ -1,5 +1,82 @@
 # 100 Days Of Code - Log
 
+### Day 15: December 19, Thursday
+
+**Today's Progress**: I learned a bit more about Recursion today. It still feels a bit foreign, but I am able to work through the simpler problems in recursion. I think I still prefer loops though :P
+
+**Thoughts**: I'm not entirely sure why recursion is a thing considering it can be accomplished in other ways.
+
+**Link(s) to work**
+1. [Recursive Functions (JavaScript)](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass)
+ - Power
+ - Factorial
+ - Product of Array
+ - Range
+ - Fibonacci
+ - Reverse
+<details><summary>Code</summary>
+<p> Power
+
+```javascript
+function power(base, exponent){
+  if (exponent < 0) return 1;
+  return base * power(base, exponent - 1);
+}
+```
+
+</p>
+<p> Factorial
+
+```javascript
+function factorial(num){
+  if (num < 0) return 1;
+  return num * factorial(num-1)
+}
+```
+
+</p>
+<p> Product of Array
+
+```javascript
+function productOfArray(arr) {
+  if (arr.length < 0) return 1;
+  return arr[0] * productOfArray(arr.slice(1))
+}
+```
+
+</p>
+<p> Range
+
+```javascript
+function recursiveRange(num){
+  if (num < 0) return 0;
+  return num += recursiveRange(num-1)
+}
+```
+
+</p>
+<p> Fibonacci
+
+```javascript
+function fib(num){
+  if (num <= 2) return 1;
+  return fib(num-1) + fib(num-2);
+}
+```
+
+</p>
+<p> Reverse
+
+```javascript
+function reverse(str){
+  if (str === "") return "";
+  return reverse(str.substr(1)) + str.charAt(0);
+}
+```
+
+</p>
+</details>
+
 ### Day 14: December 18, Wednesday
 
 **Today's Progress**: Today I finished the Applied Visual Desgin section of Free Code Camp's Responsive We Design Certification.

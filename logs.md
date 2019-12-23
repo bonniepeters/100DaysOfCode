@@ -21,6 +21,7 @@ function squareDigits(num){
 ```
 
 </p>
+</details>
 
 ### Day 15: December 19, Thursday
 

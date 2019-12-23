@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 16: December 21, Saturday
+
+**Today's Progress**:
+
+**Thoughts**:
+
+**Link(s) to work**
+1. [Square Every Digit (JavaScript)](https://www.codewars.com/kata/546e2562b03326a88e000020/solutions/javascript)
+<details><summary>Code</summary>
+<p>
+
+```javascript
+function squareDigits(num){
+    let arr = num.toString().split('').map((int) => {
+      return parseInt(int * int);
+    });
+    return parseInt(arr.join(""));
+  }
+```
+
+</p>
+
 ### Day 15: December 19, Thursday
 
 **Today's Progress**: I learned a bit more about Recursion today. It still feels a bit foreign, but I am able to work through the simpler problems in recursion. I think I still prefer loops though :P

@@ -1,5 +1,55 @@
 # 100 Days Of Code - Log
 
+### Day 17: December 23, Monday
+
+**Today's Progress**: I coded! some days, its not about what you code but rather the effort to code something.
+
+**Thoughts**: 100 days straight of coding an hour each day doesn't seem to be quite attainable for me, but making an effort every days does. This week has been rough with my dog having surgery and needing to be watched constantly now, but I am still making progress!
+
+**Link(s) to work**
+1. [Repeat String (JavaScript)](https://www.codewars.com/kata/string-repeat/javascript)
+2. [Return Negative (JavaScript)](https://www.codewars.com/kata/return-negative/javascript)
+3. [Remove First and Last (JavaScript)](https://www.codewars.com/kata/remove-first-and-last-character/javascript)
+4. [Remove Spaces (JavaScript)](https://www.codewars.com/kata/remove-string-spaces/javascript)
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function repeatStr (n, s) {
+  return s.repeat(n);
+};
+```
+
+</p>
+<p> 2
+
+```javascript
+function makeNegative(num) {
+  return num < 0 ? num : -(num);
+};
+```
+
+</p>
+<p> 3
+
+```javascript
+function removeChar(str){
+  return str.slice(1,-1)
+};
+```
+
+</p>
+<p> 4
+
+```javascript
+function noSpace(x){
+  return x.replace(/\s/g, '');
+};
+```
+
+</p>
+</details>
+
 ### Day 16: December 21, Saturday
 
 **Today's Progress**:

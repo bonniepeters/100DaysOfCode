@@ -1,5 +1,44 @@
 # 100 Days Of Code - Log
 
+### Day 18: December 24, Tuesday
+
+**Today's Progress**: I'm to a point in my code now, that I would like to start refactoring each solution I come to.
+
+**Thoughts**: Somedays I don't have thoughts...
+
+**Link(s) to work**
+1. [Stop gninnips my words (JavaScript)](https://www.codewars.com/kata/stop-gninnips-my-sdrow/javascript)
+<details><summary>Code</summary>
+<p> 1
+
+```javascript
+function spinWords(str){
+    temp = str.split(" ");
+    let arr = []
+    for (let word of temp) {
+        if (word.length > 4) {
+            arr.push(word.split("").reverse().join(""));
+        } else {
+            arr.push(word)
+        }
+    } return arr.join(" ");
+};
+```
+
+</p>
+<p> 1 Refactored
+
+```javascript
+function spinWords(str) {
+    return str.split(" ").map((word) => {
+        return (word.length > 4) ? word.split("").reverse().join("") : word;
+    }).join(" ");
+};
+```
+
+</p>
+</details>
+
 ### Day 17: December 23, Monday
 
 **Today's Progress**: I coded! some days, its not about what you code but rather the effort to code something.

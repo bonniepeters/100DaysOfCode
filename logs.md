@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 19: December 27, Friday
+
+**Today's Progress**: I've all but finished freeCodeCamp's Responsive Web Design Certification. All that's left now with it is finishing the projects. I wrapped up two of them today :)
+
+**Link(s) to work**
+1. [Tribute Page](https://codepen.io/Bpeters23/pen/GRgvopB)
+2. [Survey Form](https://codepen.io/Bpeters23/pen/BaydKqp)
+
 ### Day 18: December 24, Tuesday
 
 **Today's Progress**: I'm to a point in my code now, that I would like to start refactoring each solution I come to.

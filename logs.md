@@ -1,4 +1,12 @@
 # 100 Days Of Code - Log
+
+### Day 22: January 3, Friday
+
+**Today's Progress**: I completed freeCodeCamp's Responsive Web Design Certification! 
+
+**Link(s) to work**
+1. [Portfolio Page](https://codepen.io/Bpeters23/pen/VwYryoQ)
+
 ### Day 21: January 2, Thursday
 
 **Today's Progress**:

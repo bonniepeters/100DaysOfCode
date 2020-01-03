@@ -1,8 +1,14 @@
 # 100 Days Of Code - Log
+### Day 21: January 2, Thursday
+
+**Today's Progress**:
+
+**Link(s) to work**
+1. [Technical Documentation Page](https://codepen.io/Bpeters23/pen/VwYrPrY)
 
 ### Day 20: December 30, Monday
 
-**Today's Progress**: I've all but finished freeCodeCamp's Responsive Web Design Certification. All that's left now with it is finishing the projects. I wrapped up two of them today :)
+**Today's Progress**:
 
 **Link(s) to work**
 1. [Product Landing Page](https://codepen.io/Bpeters23/pen/vYEegxG)

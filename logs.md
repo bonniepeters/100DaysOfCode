@@ -7,7 +7,7 @@
 2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I began my first [mockup site](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma). I will be recreating the [Travel Tacoma](https://www.traveltacoma.com/) site.
 3. I decided to tackle a 5 kyu challenge on codewars([Simple Pig Latin](https://www.codewars.com/kata/simple-pig-latin/javascript)). I did have to google some regex, but I was able to complete the challenge! 
 
-<details><summary>**Code**</summary>
+<details><summary>Code</summary>
 <p> Linear, Binary, and Substring Searches I completed for JavaScript Algorithms and Data Structures Masterclass Course
 
 ```javascript
@@ -62,10 +62,8 @@ function pigIt(str) {
 </details>
 
 ---
----
----
 
-## First Attempt 
+<details><summary>First Attempt at 100 Days of Code</summary>
 
 ### Day 22: January 3, Friday
 
@@ -931,4 +929,5 @@ function likes(names) {
 ```
 
 </p>
+</details>
 </details>

@@ -1,5 +1,72 @@
 # 100 Days Of Code - Log
 
+### Day 1: Jan 7, Tuesday
+
+**Accomplishments:**
+1. Completed Section 10 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 25% of m way through the course.
+2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I began my first [mockup site](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma). I will be recreating the [Travel Tacoma](https://www.traveltacoma.com/) site.
+3. I decided to tackle a 5 kyu challenge on codewars([Simple Pig Latin](https://www.codewars.com/kata/simple-pig-latin/javascript)). I did have to google some regex, but I was able to complete the challenge! 
+
+<details><summary>**Code**</summary>
+<p> Linear, Binary, and Substring Searches I completed for JavaScript Algorithms and Data Structures Masterclass Course
+
+```javascript
+function linearSearch(arr, num){
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] === num) {
+            return i
+        }
+    } return -1
+}
+
+function binarySearch(arr, num) {
+    let left = 0;
+    let right = arr.length - 1;
+    let middle = Math.floor((left + right) / 2);
+    while (arr[middle] !== num && left <= right) {
+        if (num < arr[middle]) right = middle - 1;
+        else left = middle + 1;
+        middle = Math.floor((left + right) / 2);
+    }
+    return arr[middle] === num ? middle : -1;
+  }
+
+function naiveSearch(long, short) {
+    let count = 0
+    for (let i = 0; i < long.length; i++){
+        for (let j = 0; j < short.length; j++){
+            if (short[j] !== long[i + j]) break;
+            if (j === short / length - 1) count++;
+        }
+    }
+    return count;
+}
+```
+
+</p>
+<p> Pig Latin
+
+```javascript
+function pigIt(str) {
+  return str
+    .split(/(\W+)/)
+    .map((word) => {
+      if (!/\w/.test(word)) return word;
+      return word.substring(1) + word.charAt(0) + "ay";
+    })
+    .join("");
+}
+```
+
+</p>
+</details>
+
+---
+---
+---
+
+## First Attempt 
+
 ### Day 22: January 3, Friday
 
 **Today's Progress**: I completed freeCodeCamp's Responsive Web Design Certification! 

@@ -1,5 +1,36 @@
 # 100 Days Of Code - Log
 
+### Day 2: Jan 8, Wednesday
+
+**Accomplishments:**
+1. Completed Section 11 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
+
+<details><summary>Code</summary>
+<p> Bubble Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
+
+```javascript
+const bubbleSort = (arr) => {
+    let noSwaps;
+    const swap = (arr, idx1, idx2) => {
+        [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]
+    };
+    for (let i = arr.length; i > 0; i--) {
+        noSwaps = true;
+        for (let j = 0; j < i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(arr, j, j + 1);
+                noSwaps = false;
+            }
+        }
+    }
+    if (noSwaps) break;
+    return arr;
+}
+```
+
+</p>
+</details>
+
 ### Day 1: Jan 7, Tuesday
 
 **Accomplishments:**

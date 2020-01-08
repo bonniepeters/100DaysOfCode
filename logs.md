@@ -4,6 +4,7 @@
 
 **Accomplishments:**
 1. Completed Section 11 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
+2. Finished the [Create Phone Number Challenge](https://www.codewars.com/kata/create-phone-number/javascript) on Codewars.
 
 <details><summary>Code</summary>
 <p> Bubble Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
@@ -25,6 +26,15 @@ const bubbleSort = (arr) => {
     }
     if (noSwaps) break;
     return arr;
+}
+```
+
+</p>
+<p> Create a Phone Number Challenge
+
+```javascript
+function createPhoneNumber(numbers){
+    return `(${numbers.slice(0,3).join("")}) ${numbers.slice(3,6).join("")}-${numbers.slice(6,10).join("")}`
 }
 ```
 

@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+### Day 3: Jan 9, Thursday
+
+**Accomplishments:**
+1. Completed Section 12 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
+
+<details><summary>Code</summary>
+<p> Selection Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
+
+```javascript
+const selectionSort = (arr) => {
+    const swap = (arr, idx1, idx2) => {
+        [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]
+    };
+    for (let i = 0; i < arr.length; i++) {
+        let min = i;
+        for (let j = i + 1; j < arr.length; j++){
+            if (arr[j] < arr[min]) min = j;
+        }
+        if(i !== min) swap(arr, i, min)
+    }
+    return arr;
+}
+```
+
+</p>
+</details>
+
 ### Day 2: Jan 8, Wednesday
 
 **Accomplishments:**

@@ -4,6 +4,7 @@
 
 **Accomplishments:**
 1. Completed Section 12 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
+2. Finished the [Is Array Int 6kyu Challenge](https://www.codewars.com/kata/52a112d9488f506ae7000b95/javascript) on Codewars.
 
 <details><summary>Code</summary>
 <p> Selection Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
@@ -25,6 +26,20 @@ const selectionSort = (arr) => {
 ```
 
 </p>
+<p> Is Array Int Challenge
+    
+```javascript
+function isIntArray(arr) {
+   for (let i = 0; i < arr.length; i++) {
+       if (!Number.isInteger(arr[i])) {
+           return false;
+        }
+    }
+    return true;
+}
+```
+
+</p>
 </details>
 
 ### Day 2: Jan 8, Wednesday
@@ -32,6 +47,7 @@ const selectionSort = (arr) => {
 **Accomplishments:**
 1. Completed Section 11 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
 2. Finished the [Create Phone Number Challenge](https://www.codewars.com/kata/create-phone-number/javascript) on Codewars.
+3. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for the header of my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
 
 <details><summary>Code</summary>
 <p> Bubble Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course

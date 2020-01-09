@@ -6,6 +6,7 @@
 1. Completed Section 12 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
 2. Finished the [Is Array Int 6kyu Challenge](https://www.codewars.com/kata/52a112d9488f506ae7000b95/javascript) on Codewars.
 3. Initialized the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for a digital journaling app I am creating.
+4. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for the About and Places sections of my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
 
 <details><summary>Code</summary>
 <p> Selection Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course

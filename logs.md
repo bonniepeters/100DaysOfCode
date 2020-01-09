@@ -5,6 +5,7 @@
 **Accomplishments:**
 1. Completed Section 12 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
 2. Finished the [Is Array Int 6kyu Challenge](https://www.codewars.com/kata/52a112d9488f506ae7000b95/javascript) on Codewars.
+3. Initialized the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for a digital journaling app I am creating.
 
 <details><summary>Code</summary>
 <p> Selection Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course

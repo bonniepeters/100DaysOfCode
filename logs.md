@@ -4,6 +4,7 @@
 
 **Accomplishments:**
 1. Completed Sections 13 and 14 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 30% of my way through the course.
+2. Finished the [is n divisible](https://www.codewars.com/kata/5545f109004975ea66000086/javascript) on Codewars.
 
 <details><summary>Code</summary>
 <p> Insertion Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
@@ -27,6 +28,15 @@ const insertionSort = (arr) => {
 }
 
 console.log(insertionSort([1,4,3,9,2,8]))
+```
+
+</p>
+<p> Is n Divisible challenge
+
+```javascript
+const isDivisible = (n, x, y) => {
+    return n % x === 0 && n % y === 0
+}
 ```
 
 </p>

@@ -6,6 +6,7 @@
 1. Completed Sections 13 and 14 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 30% of my way through the course.
 2. Finished the [is n divisible](https://www.codewars.com/kata/5545f109004975ea66000086/javascript) on Codewars.
 3. Finished the [Watermelon](https://www.codewars.com/kata/55192f4ecd82ff826900089e/javascript) on Codewars.
+4. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for the social posts, plan a trip, advertisements, and first footer sections of my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
 
 <details><summary>Code</summary>
 <p> Insertion Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course

@@ -1,5 +1,37 @@
 # 100 Days Of Code - Log
 
+### Day 4: Jan 10, Friday
+
+**Accomplishments:**
+1. Completed Sections 13 and 14 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 30% of my way through the course.
+
+<details><summary>Code</summary>
+<p> Insertion Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
+
+```javascript
+// The insertion sort loops through an array, each time selecting an unsorted element to compare to the sorted elements on its left and then determine where it should be inserted.
+const insertionSort = (arr) => {
+    // loop through entire aray
+    for (let i = 1; i < arr.length; i++) {
+        // set a variable to be inserted where it belongs in the array
+        let insertVal = arr[i];
+        // loop through all of the elements in the array that are to the left of the element as long as the element to the left is not greater than the element to be inserted
+        for (var j = i - 1; j >= 0 && arr[j] > insertVal; j--) {
+            // move the element on the left one space right
+            arr[j + 1] = arr[j];
+        }
+        // once the element to be inserted finds its spot where it is greater than its left and less than its right, OR it is the smallest element, insert it
+        arr[j + 1] = insertVal;
+    }
+    return arr;
+}
+
+console.log(insertionSort([1,4,3,9,2,8]))
+```
+
+</p>
+</details>
+
 ### Day 3: Jan 9, Thursday
 
 **Accomplishments:**

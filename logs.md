@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 5: Jan 11, Saturday
+
+**Accomplishments:**
+1. Finished the [The wheat/rice and chessboard problem](https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> The wheat/rice and chessboard problem
+
+```javascript
+const squaresNeeded = (grains) => {
+  return Math.ceil(Math.log2(grains+1))
+}
+```
+
+</p>
+</details>
+
 ### Day 4: Jan 10, Friday
 
 **Accomplishments:**

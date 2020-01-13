@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 7: Jan 13, Monday
+
+**Accomplishments:**
+1. Finished the [Complimentary DNA challenge](https://www.codewars.com/kata/554e4a2f232cdd87d9000038/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Complimentary DNA challenge
+
+```javascript
+function DNAStrand(dna){
+  return dna
+    .replace(/A/g, 't')
+    .replace(/T/g, 'a')
+    .replace(/C/g, 'g')
+    .replace(/G/g, 'c')
+    .toUpperCase();
+};
+```
+
+</p>
+</details>
+
 ### Day 6: Jan 12, Sunday
 
 **Accomplishments:**

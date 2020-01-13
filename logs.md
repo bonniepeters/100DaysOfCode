@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 6: Jan 12, Sunday
+
+**Accomplishments:**
+1.  As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
+
 ### Day 5: Jan 11, Saturday
 
 **Accomplishments:**

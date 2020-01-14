@@ -1,5 +1,62 @@
 # 100 Days Of Code - Log
 
+### Day 8: Jan 14, Tuesday
+
+**Accomplishments:**
+1. Completed Section 15 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 32% of my way through the course.
+
+<details><summary>Code</summary>
+<p> Merge Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
+
+```javascript
+// Helper function for merging 2 sorted arrays
+const merge = (arr1, arr2) => {
+    // create a new empty array for the merged arrays
+    let merged = []
+    // set an index for the first array
+    let i = 0
+    // set an index for the second array
+    let j = 0
+    // while the indexes are both less than their arrays, compare the elements of the two arrays at their indexes
+    while (i < arr1.length && j < arr2.length) {
+        // add the smaller of the two elements to the merged array and increase its index
+        if (arr1[i] <= arr2[j]) {
+            merged.push(arr1[i])
+            i++;
+        } else {
+            merged.push(arr2[j])
+            j++;
+        }
+    }
+    // if the one of the arrays becomes empty, add the other array to the merged array
+    while (i < arr1.length) {
+        merged.push(arr1[i])
+        i++;
+    }
+    while (j < arr2.length) {
+        merged.push(arr2[j])
+        j++;
+    }
+    return merged;
+}
+
+const mergeSort = (arr) => {
+    // recursively split the arrays until there is only a single element in each left and right resulting arrays
+    if (arr.length <= 1) return arr;
+    // select the middle of the starting array
+    let mid = Math.floor(arr.length / 2)
+    // create a left side and recursively run your function
+    let left = mergeSort(arr.slice(0, mid))
+    // create a right side and recursively run your function
+    let right = mergeSort(arr.slice(mid))
+    // call your helper function to merge all the resulting arrays in the order they were called recursively
+    return merge(left, right)
+}
+```
+
+</p>
+</details>
+
 ### Day 7: Jan 13, Monday
 
 **Accomplishments:**

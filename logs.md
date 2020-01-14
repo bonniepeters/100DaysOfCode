@@ -3,7 +3,7 @@
 ### Day 8: Jan 14, Tuesday
 
 **Accomplishments:**
-1. Completed Section 15 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 32% of my way through the course.
+1. Completed Section 15(Merge Sort) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 32% of my way through the course.
 
 <details><summary>Code</summary>
 <p> Merge Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
@@ -104,7 +104,7 @@ const squaresNeeded = (grains) => {
 ### Day 4: Jan 10, Friday
 
 **Accomplishments:**
-1. Completed Sections 13 and 14 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 30% of my way through the course.
+1. Completed Sections 13(Insertion Sort) and 14 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 30% of my way through the course.
 2. Finished the [is n divisible](https://www.codewars.com/kata/5545f109004975ea66000086/javascript) on Codewars.
 3. Finished the [Watermelon](https://www.codewars.com/kata/55192f4ecd82ff826900089e/javascript) on Codewars.
 4. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for the social posts, plan a trip, advertisements, and first footer sections of my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
@@ -157,7 +157,7 @@ const divide = (weight) => {
 ### Day 3: Jan 9, Thursday
 
 **Accomplishments:**
-1. Completed Section 12 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
+1. Completed Section 12(Selection Sort) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
 2. Finished the [Is Array Int 6kyu Challenge](https://www.codewars.com/kata/52a112d9488f506ae7000b95/javascript) on Codewars.
 3. Initialized the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for a digital journaling app I am creating.
 4. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for the About and Places sections of my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
@@ -201,7 +201,7 @@ function isIntArray(arr) {
 ### Day 2: Jan 8, Wednesday
 
 **Accomplishments:**
-1. Completed Section 11 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
+1. Completed Section 11(Bubble Sort) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 28% of my way through the course.
 2. Finished the [Create Phone Number Challenge](https://www.codewars.com/kata/create-phone-number/javascript) on Codewars.
 3. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the HTML for the header of my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
 
@@ -243,7 +243,7 @@ function createPhoneNumber(numbers){
 ### Day 1: Jan 7, Tuesday
 
 **Accomplishments:**
-1. Completed Section 10 of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 25% of m way through the course.
+1. Completed Section 10(Search Algorithms) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 25% of m way through the course.
 2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I began my first [mockup site](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma). I will be recreating the [Travel Tacoma](https://www.traveltacoma.com/) site.
 3. I decided to tackle a 5 kyu challenge on codewars([Simple Pig Latin](https://www.codewars.com/kata/simple-pig-latin/javascript)). I did have to google some regex, but I was able to complete the challenge! 
 

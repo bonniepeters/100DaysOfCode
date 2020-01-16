@@ -1,5 +1,43 @@
 # 100 Days Of Code - Log
 
+### Day 9: Jan 16, Thursday
+
+**Accomplishments:**
+1. Completed Section 15(Merge Sort) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 34% of my way through the course.
+
+<details><summary>Code</summary>
+<p> Quick Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course
+
+```javascript
+const pivot = (arr, start = 0, end = arr.length + 1) => {
+    const swap = (arr, idx1, idx2) => {
+        [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]
+    };
+    let pivot = arr[start];
+    let swapIdx = start;
+    for (let i = start + 1; i < arr.length; i++) {
+        if (pivot > arr[i]) {
+            swapIdx++;
+            swap(arr,swapIdx,i)
+        }
+    }
+    swap(arr, swapIdx, start)
+    return swapIdx;
+}
+
+const quickSort = (arr, left = 0, right = arr.length - 1) => {
+    if (left < right) {
+        let pivotIdx = pivot(arr, left, right)
+        quickSort(arr, left, pivotIdx - 1)
+        quickSort(arr, pivotIdx + 1, right)
+    }
+    return arr;
+}
+```
+
+</p>
+</details>
+
 ### Day 8: Jan 14, Tuesday
 
 **Accomplishments:**

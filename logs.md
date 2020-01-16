@@ -4,6 +4,7 @@
 
 **Accomplishments:**
 1. Completed Section 15(Merge Sort) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 34% of my way through the course.
+2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I began the css styling of the navigations for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
 
 <details><summary>Code</summary>
 <p> Quick Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course

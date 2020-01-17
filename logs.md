@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 10: Jan 17, Friday
+
+**Accomplishments:**
+1. Finished the [Descending Order challenge](https://www.codewars.com/kata/5467e4d82edf8bbf40000155/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Complimentary DNA challenge
+
+```javascript
+function descendingOrder(n){
+  return Number(n.toString().split('').sort((a,b)=> b-a).join(''));
+}
+```
+
+</p>
+</details>
+
 ### Day 9: Jan 16, Thursday
 
 **Accomplishments:**

@@ -4,6 +4,7 @@
 
 **Accomplishments:**
 1. Finished the [Descending Order challenge](https://www.codewars.com/kata/5467e4d82edf8bbf40000155/javascript) on Codewars.
+2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the styling of most of the navigations for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site. [This post](https://peter.coffee/how-to-use-css-pseudo-elements-to-add-a-gradient-to-images) had some great help in the area of applying a linear-gradient to an image without it being a background image.
 
 <details><summary>Code</summary>
 <p> Complimentary DNA challenge
@@ -21,7 +22,7 @@ function descendingOrder(n){
 
 **Accomplishments:**
 1. Completed Section 15(Merge Sort) of [JavaScript Algorithms and Data Structures Masterclass Course](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass). I am now 34% of my way through the course.
-2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I began the css styling of the navigations for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
+2. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I began the css styling of the navigations for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site. [This codepen](https://codepen.io/iDiver76/pen/YWzKZz) had some great help in the area of applying a slanted edge for the background of my menues.
 
 <details><summary>Code</summary>
 <p> Quick Sort I completed for JavaScript Algorithms and Data Structures Masterclass Course

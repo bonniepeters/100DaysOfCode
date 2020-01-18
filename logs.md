@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 11: Jan 18, Friday
+
+**Accomplishments:**
+1. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the styling of about 80% of the title slide and header for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site. I'm feeling more and more comfortable with CSS everyday and the answer are coming more quickly as I troubleshoot issues.
+
 ### Day 10: Jan 17, Friday
 
 **Accomplishments:**

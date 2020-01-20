@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+### Day 12: Jan 19, Sunday
+
+**Accomplishments:**
+1. Finished the [Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Complimentary DNA challenge
+
+```javascript
+function getSum(a, b) {
+    let total = a
+    if(a === b) return a;
+    while (a < b) {
+        a++;
+        total += a
+    }
+    while (a > b) {
+        a--;
+        total += a
+    }
+    return total
+}
+```
+
+</p>
+</details>
+
 ### Day 11: Jan 18, Friday
 
 **Accomplishments:**

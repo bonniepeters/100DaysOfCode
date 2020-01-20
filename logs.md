@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 13: Jan 20, Monday
+
+**Accomplishments:**
+1. I made some adjustments to the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for my digital journaling app.
+2. Initiated the [react frontend](https://github.com/bonniepeters/dailies-react) for my digital journaling app.
+
 ### Day 12: Jan 19, Sunday
 
 **Accomplishments:**

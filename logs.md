@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+
+### Day 15: Jan 22, Wednesday
+
+**Accomplishments:**
+1. I added the logic for the [react frontend](https://github.com/bonniepeters/dailies-react) of my digital journaling app. and made some finishing touches to the design and navigation.
+
 ### Day 14: Jan 21, Tuesday
 
 **Accomplishments:**

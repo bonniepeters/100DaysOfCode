@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 14: Jan 21, Tuesday
+
+**Accomplishments:**
+1. I finished the majority of the design elements for the [react frontend](https://github.com/bonniepeters/dailies-react) of my digital journaling app.
+
 ### Day 13: Jan 20, Monday
 
 **Accomplishments:**

@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 17: Jan 25, Saturday
+
+**Accomplishments:**
+1. I attempted to deploy the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for my digital journaling app.
+
+### Days 16: Jan 23, Thursday
+
+**Accomplishments:**
+1. I added Desktop styling to my [react frontend](https://github.com/bonniepeters/dailies-react) of my digital journaling app.
+
 ### Days 16: Jan 23, Thursday
 
 **Accomplishments:**

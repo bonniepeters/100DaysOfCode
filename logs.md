@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 19: Jan 27, Monday
+
+**Accomplishments:**
+1. I attempted to deploy the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for my digital journaling app.
+
 ### Day 18: Jan 26, Sunday
 
 **Accomplishments:**

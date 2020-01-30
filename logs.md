@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 20: Jan 28, Tuesday
+
+**Accomplishments:**
+1. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the styling of the title slide and header for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
+
 ### Day 19: Jan 27, Monday
 
 **Accomplishments:**

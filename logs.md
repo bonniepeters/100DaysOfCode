@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Days 16: Jan 23, Thursday
+
+**Accomplishments:**
+1. I added Desktop styling to my [react frontend](https://github.com/bonniepeters/dailies-react) of my digital journaling app.
 
 ### Day 15: Jan 22, Wednesday
 

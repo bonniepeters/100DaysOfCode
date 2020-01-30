@@ -1,5 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 21: Jan 30, Thursday
+
+**Accomplishments:**
+1. Finished the [Find the Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) on Codewars.
+
+<details><summary>Code</summary>
+<p> Find the Parity Outlier
+
+```javascript
+function findOutlier(integers){
+  let odd = []
+  let even = []
+  for(x of integers) {
+    if(x % 2 === 0) {
+      even.push(x)
+    } else {
+      odd.push(x)
+    }
+  }
+  return (odd.length < even.length ? odd[0] : even[0])
+}
+```
+
+</p>
+</details>
+
 ### Day 20: Jan 28, Tuesday
 
 **Accomplishments:**

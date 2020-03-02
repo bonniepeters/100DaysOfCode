@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 22: Mar 2, Monday
+### Day 20: Mar 2, Monday
 
 **Accomplishments:**
 1. I broke the coding silence!
@@ -9,6 +9,7 @@
 4. Finished the [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018/javascript) on Codewars.
 5. Finished the [Counting Sheep](https://www.codewars.com/kata/54edbc7200b811e956000556/javascript) on Codewars.
 6. Finished the [Grasshopper - Summation](https://www.codewars.com/kata/55d24f55d7dd296eb9000030/javascript) on Codewars.
+7. Finished the [Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6/javascript) on Codewars.
 
 
 <details><summary>Code</summary>
@@ -68,9 +69,21 @@ var summation = function (num) {
 ```
 
 </p>
+<p> Jaden Casing Strings
+  
+```javascript
+String.prototype.toJadenCase = function () {
+  return this
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.substring(1))
+    .join(" ");
+}
+```
+
+</p>
 </details>
 
-### Day 21: Jan 30, Thursday
+### Day 19: Jan 30, Thursday
 
 **Accomplishments:**
 1. Finished the [Find the Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) on Codewars.
@@ -96,30 +109,15 @@ function findOutlier(integers){
 </p>
 </details>
 
-### Day 20: Jan 28, Tuesday
+### Day 18: Jan 28, Tuesday
 
 **Accomplishments:**
 1. As a part of my [Front End Design Challenges](https://github.com/bonniepeters/Front-End-Design-Challenges), I completed the styling of the title slide and header for my [mockup](https://github.com/bonniepeters/Front-End-Design-Challenges/tree/master/Travel_Tacoma) of the [Travel Tacoma](https://www.traveltacoma.com/) site.
 
-### Day 19: Jan 27, Monday
+### Day 17: Jan 27, Monday
 
 **Accomplishments:**
 1. I attempted to deploy the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for my digital journaling app.
-
-### Day 18: Jan 26, Sunday
-
-**Accomplishments:**
-1. I attempted to deploy the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for my digital journaling app.
-
-### Day 17: Jan 25, Saturday
-
-**Accomplishments:**
-1. I attempted to deploy the [django backend](https://github.com/bonniepeters/dailies-digitally-squared) for my digital journaling app.
-
-### Days 16: Jan 23, Thursday
-
-**Accomplishments:**
-1. I added Desktop styling to my [react frontend](https://github.com/bonniepeters/dailies-react) of my digital journaling app.
 
 ### Days 16: Jan 23, Thursday
 

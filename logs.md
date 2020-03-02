@@ -5,6 +5,7 @@
 **Accomplishments:**
 1. I broke the coding silence!
 2. Finished the [Convert boolean values to strings 'Yes' or 'No'.](https://www.codewars.com/kata/53369039d7ab3ac506000467/javascript) on Codewars.
+2. Finished the [Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/javascript) on Codewars.
 
 <details><summary>Code</summary>
 <p> Convert boolean values to strings 'Yes' or 'No'.
@@ -12,6 +13,15 @@
 ```javascript
 function boolToWord( bool ){
   return bool ? 'Yes':'No';
+}
+```
+
+</p>
+<p> Convert a Number to a String!
+  
+```javascript
+function numberToString(num) {
+  return num.toString()
 }
 ```
 

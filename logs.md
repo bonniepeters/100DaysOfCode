@@ -5,8 +5,10 @@
 **Accomplishments:**
 1. I broke the coding silence!
 2. Finished the [Convert boolean values to strings 'Yes' or 'No'.](https://www.codewars.com/kata/53369039d7ab3ac506000467/javascript) on Codewars.
-2. Finished the [Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/javascript) on Codewars.
-3. Finished the [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018/javascript) on Codewars.
+3. Finished the [Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/javascript) on Codewars.
+4. Finished the [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018/javascript) on Codewars.
+5. Finished the [Counting Sheep](https://www.codewars.com/kata/54edbc7200b811e956000556/javascript) on Codewars.
+
 
 <details><summary>Code</summary>
 <p> Convert boolean values to strings 'Yes' or 'No'.
@@ -32,6 +34,21 @@ function numberToString(num) {
 ```javascript
 function solution(str){
   return str.split("").reverse().join("")
+}
+```
+
+</p>
+<p> Counting Sheep
+  
+```javascript
+function countSheeps(arrayOfSheep) {
+  let count = 0;
+  for (let sheep of arrayOfSheep) {
+    if(sheep){
+      count++
+    }
+  }
+  return count
 }
 ```
 

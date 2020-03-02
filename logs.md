@@ -6,6 +6,7 @@
 1. I broke the coding silence!
 2. Finished the [Convert boolean values to strings 'Yes' or 'No'.](https://www.codewars.com/kata/53369039d7ab3ac506000467/javascript) on Codewars.
 2. Finished the [Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/javascript) on Codewars.
+3. Finished the [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018/javascript) on Codewars.
 
 <details><summary>Code</summary>
 <p> Convert boolean values to strings 'Yes' or 'No'.
@@ -22,6 +23,15 @@ function boolToWord( bool ){
 ```javascript
 function numberToString(num) {
   return num.toString()
+}
+```
+
+</p>
+<p> Reversed Strings
+  
+```javascript
+function solution(str){
+  return str.split("").reverse().join("")
 }
 ```
 

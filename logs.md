@@ -8,6 +8,7 @@
 3. Finished the [Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/javascript) on Codewars.
 4. Finished the [Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018/javascript) on Codewars.
 5. Finished the [Counting Sheep](https://www.codewars.com/kata/54edbc7200b811e956000556/javascript) on Codewars.
+6. Finished the [Grasshopper - Summation](https://www.codewars.com/kata/55d24f55d7dd296eb9000030/javascript) on Codewars.
 
 
 <details><summary>Code</summary>
@@ -49,6 +50,20 @@ function countSheeps(arrayOfSheep) {
     }
   }
   return count
+}
+```
+
+</p>
+<p> Grasshopper - Summation
+  
+```javascript
+var summation = function (num) {
+  let total = 0;
+  while(num >= 0) {
+    total += num;
+    num--;
+  }
+  return total;
 }
 ```
 

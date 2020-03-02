@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 22: Mar 2, Monday
+
+**Accomplishments:**
+1. I broke the coding silence!
+2. Finished the [Convert boolean values to strings 'Yes' or 'No'.](https://www.codewars.com/kata/53369039d7ab3ac506000467/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Convert boolean values to strings 'Yes' or 'No'.
+  
+```javascript
+function boolToWord( bool ){
+  return bool ? 'Yes':'No';
+}
+```
+
+</p>
+</details>
+
 ### Day 21: Jan 30, Thursday
 
 **Accomplishments:**

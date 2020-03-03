@@ -1,5 +1,39 @@
 # 100 Days Of Code - Log
 
+### Day 21: Mar 3, Tuesday
+
+**Accomplishments:**
+1. Finished the [Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Isograms
+
+```javascript
+function isIsogram(str) {
+  if(str === ''){
+    return true
+  }
+  let confirmed = true;
+  let lowerCased = str.toLowerCase();
+  var counts = {};
+  for (i = 0; i <= lowerCased.length; i++) {
+    var letter = lowerCased.charAt(i);
+    if (counts[letter]) {
+      counts[letter] = 1 + counts[letter];
+    } else {
+      counts[letter] = 1;
+    }
+    if (counts[letter] > 1) {
+      return (confirmed = false);
+    }
+  }
+  return confirmed;
+}
+```
+
+</p>
+</details>
+
 ### Day 20: Mar 2, Monday
 
 **Accomplishments:**

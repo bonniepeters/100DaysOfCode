@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 22: Mar 4, Wednesday
+
+**Accomplishments:**
+1. Finished 70% of freeCodeCamp's Javascript Introduction Course.
+
 ### Day 21: Mar 3, Tuesday
 
 **Accomplishments:**

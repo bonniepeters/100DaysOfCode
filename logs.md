@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+### Day 24: Mar 6, Friday
+
+**Accomplishments:**
+1. Finished the [Persistent Bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Isograms
+
+```javascript
+function persistence(num) {
+  let arr = num.toString().split("");
+  let count = 0;
+  let multiplied;
+  while (arr.length > 1) {
+    total = arr.reduce(function (a, b) {
+      return a * b;
+    })
+    count++;
+    arr = total.toString().split("");
+  }
+  return count;
+}
+```
+
+</p>
+</details>
+
 ### Day 23: Mar 5, Thursday
 
 **Accomplishments:**

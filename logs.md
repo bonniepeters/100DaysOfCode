@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+### Day 25: Mar 9, Monday
+
+**Accomplishments:**
+1. Continued freeCodeCamp's Javascript Course.
+
 ### Day 24: Mar 6, Friday
 
 **Accomplishments:**

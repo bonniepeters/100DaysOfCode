@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 25: Mar 12, Thursday
+
+**Accomplishments:**
+1. Finished the [Sum of Digits/Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00/javascript) on Codewars.
+
+<details><summary>Code</summary>
+<p> Sum of Digits/Digital Root
+
+```javascript
+function digital_root(n){
+  let sum = 0;
+  String(n).split('').map(num => {
+    sum += Number(num);
+  });
+  return sum > 10 ? digital_root(sum) : sum;
+}
+```
+
+</p>
+</details>
+
 ### Day 25: Mar 9, Monday
 
 **Accomplishments:**
